@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Shahnawaz Ansari</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+    <!--Fullpage css-->
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+</head>
+<body>
+
+<!--Navigation header-->
+<div class="navbar-fixed">
+    <nav id="menu" class="black" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#!" class="brand-logo hide-on-small-and-down">Absolute Zero</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+                <li data-menuanchor="AboutMe"><a href="#AboutMe">About Me</a></li>
+                <li data-menuanchor="MyProjects"><a href="#MyProjects">My Projects</a></li>
+                <li data-menuanchor="ContactMe"><a href="#ContactMe">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<ul id="nav-mobile" class="sidenav">
+    <li data-menuanchor="Home"><a class="sidenav-close" href="#Home">Home</a></li>
+    <li data-menuanchor="AboutMe"><a class="sidenav-close" href="#AboutMe">About Me</a></li>
+    <li data-menuanchor="MyProjects"><a class="sidenav-close" href="#MyProjects">My Projects</a></li>
+    <li data-menuanchor="ContactMe"><a class="sidenav-close" href="#ContactMe">Contact Me</a></li>
+</ul>
+
+<div id="fullpage">
+    <!--    Home Section-->
+    <div class="section active white-text center-align" id="section0" data-anchor="Home">
+        <h1>Hi, I am <br>
+            <div class="teal-text lighten-3">Shahnawaz Ansari</div>
+        </h1>
+        <br><br><br><br>
+        <a href="#AboutMe"><i class="material-icons medium white-text center">expand_more</i></a>
+    </div>
+
+    <!--    About Me Section-->
+    <div class="section white-text" id="section1" data-anchor="AboutMe">
+        <h1 class="center teal-text lighten-3">About Me</h1>
+        <div class="row">
+            <!--            Picture-->
+            <div class="col l5 m5 right-align hide-on-small-and-down">
+                <img class="circle circled-picture responsive-img" style="margin-top: 50px"
+                     src="images/pic.jpg">
+            </div>
+            <div class="col s12 center-align hide-on-med-and-up">
+                <img class="circle circled-picture responsive-img" style="margin-bottom: 20px"
+                     src="images/pic.jpg">
+            </div>
+
+            <!--            Divider-->
+            <div class="col l1 m1 right-align hide-on-small-and-down"></div>
+
+            <!--            About me-->
+            <div class="col l6 m6 left-align hide-on-small-and-down">
+                <p class="flow-text" style="margin-right: 40px">
+                    Hi! My name is Shahnawaz Ansari. I am an
+                    Android Developer, and I'm very passionate and dedicated to my work. With 1 year experience as an
+                    Android developer, I have acquired the
+                    skills and knowledge necessary to make your project a success. I enjoy every step of the development
+                    process, from discussion and collaboration to concept and execution, but I find the most
+                    satisfaction in seeing the finished product do everything for you that it was created to do.
+                </p>
+            </div>
+            <div class="col s12 center-align hide-on-med-and-up">
+                <p class="flow-text">
+                    Hi! My name is Shahnawaz Ansari. I am an
+                    Android Developer, and I'm very passionate and dedicated to my work. With 1 year experience as an
+                    Android developer, I have acquired the
+                    skills and knowledge necessary to make your project a success. I enjoy every step of the development
+                    process, from discussion and collaboration to concept and execution, but I find the most
+                    satisfaction in seeing the finished product do everything for you that it was created to do.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--    My Projects-->
+    <div class="section white-text" id="section2" data-anchor="MyProjects">
+        <!--        <h4 class="center">My Projects</h4>-->
+        <div class="slide active center-align">
+            <img class="responsive-img" src="images/color-enhance-logo.png">
+            <a href="https://bitbucket.org/ab5olute_zero/color-enhance" target="_blank"><h1 class="center">Color
+                Enhance</h1></a>
+        </div>
+        <div class="slide center-align">
+            <img class="responsive-img" src="images/attendance-assistant-logo.png">
+            <a href="https://bitbucket.org/ab5olute_zero/attendance-assistant" target="_blank"><h1 class="center">Attendance
+                Assistant</h1></a>
+        </div>
+        <div class="slide center-align">
+            <img class="responsive-img" src="images/alluring-logo.png">
+            <a href="https://bitbucket.org/ab5olute_zero/alluring" target="_blank"><h1 class="center">Alluring</h1>
+            </a>
+        </div>
+    </div>
+
+    <!--    Contact-->
+    <div class="section white-text center-align" id="section3" data-anchor="ContactMe">
+        <h1 class="center">Contact Me</h1>
+        <div class="row">
+            <a class="waves-effect waves-light btn-large" href="mailto:shahnawaz@absolutez3ro.xyz"><i
+                    class="material-icons left">email</i>email</a>
+            <a class="waves-effect waves-light btn-large" href="https://join.skype.com/invite/iRTS3wNA5pTs"
+               target="_blank"><i class="material-icons left">message</i>skype</a>
+        </div>
+        <div class="row">
+            <a href="https://www.facebook.com/ab5olut3Zero" target="_blank" class="fa fa-facebook"></a>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['black', 'black', 'black', 'black', 'black'],
+        menu: '#menu',
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Home', 'About Me', 'My Projects', 'Contact Me'],
+        continuousVertical: true,
+        loopTop: true,
+        loopBottom: true,
+        dragAndMove: true,
+        fadingEffect: true,
+        keyboardScrolling: true,
+        animateAnchor: true,
+
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {
+            draggable: true,
+            preventScrolling: true
+        });
+    });
+</script>
+</body>
+</html>

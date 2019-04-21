@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>404 - Page Not Found</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+</head>
+<body style="background-color: black">
+<!--Navigation header-->
+<div class="navbar-fixed">
+    <nav id="menu" class="black" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo hide-on-small-and-down">Absolute Zero</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li data-menuanchor="Home"><a href="index.html#Home">Home</a></li>
+                <li data-menuanchor="AboutMe"><a href="index.html#AboutMe">About Me</a></li>
+                <li data-menuanchor="MyProjects"><a href="index.html#MyProjects">My Projects</a></li>
+                <li data-menuanchor="ContactMe"><a href="index.html#ContactMe">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<ul id="nav-mobile" class="sidenav">
+    <li data-menuanchor="Home"><a class="sidenav-close" href="#Home">Home</a></li>
+    <li data-menuanchor="AboutMe"><a class="sidenav-close" href="#AboutMe">About Me</a></li>
+    <li data-menuanchor="MyProjects"><a class="sidenav-close" href="#MyProjects">My Projects</a></li>
+    <li data-menuanchor="ContactMe"><a class="sidenav-close" href="#ContactMe">Contact Me</a></li>
+</ul>
+
+<h1 class="white-text center-align">404 - Page Not Found</h1>
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, {
+            draggable: true,
+            preventScrolling: true
+        });
+    });
+</script>
+</body>
+</html>
