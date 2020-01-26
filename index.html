@@ -47,7 +47,7 @@
     <!--    Home Section-->
     <div class="section active white-text center-align" id="section0" data-anchor="Home">
         <h1>Hi, I am <br>
-            <div class="teal-text">Shahnawaz Ansari</div>
+            <span class="teal-text">Shahnawaz Ansari</span>
         </h1>
         <br><br><br><br>
         <a href="#AboutMe"><i class="material-icons medium white-text center">expand_more</i></a>
@@ -59,11 +59,11 @@
         <div class="row">
             <!--            Picture-->
             <div class="col l5 m5 right-align hide-on-small-and-down">
-                <img class="circle circled-picture responsive-img" style="margin-top: 50px"
+                <img class="circle circled-picture responsive-img" alt="picture" style="margin-top: 50px"
                      src="images/pic.jpg">
             </div>
             <div class="col s12 center-align hide-on-med-and-up">
-                <img class="circle circled-picture responsive-img" style="margin-bottom: 20px"
+                <img class="circle circled-picture responsive-img" alt="picture" style="margin-bottom: 20px"
                      src="images/pic.jpg">
             </div>
 
@@ -98,17 +98,17 @@
     <div class="section white-text" id="section2" data-anchor="MyProjects">
         <!--        <h4 class="center">My Projects</h4>-->
         <div class="slide active center-align">
-            <img class="responsive-img" src="images/color-enhance-logo.png">
+            <img class="responsive-img" src="images/color-enhance-logo.png" alt="color enhance logo">
             <a href="https://github.com/absolute-z3ro/Color-Enhance" target="_blank"><h1 class="center">Color
                 Enhance</h1></a>
         </div>
         <div class="slide center-align">
-            <img class="responsive-img" src="images/whatsapp-status-saver-logo.png">
+            <img class="responsive-img" src="images/whatsapp-status-saver-logo.png" alt="whatsapp status saver logo">
             <a href="https://github.com/absolute-z3ro/WhatsApp-Status-Saver" target="_blank"><h1 class="center">WhatsApp Status Saver</h1>
             </a>
         </div>
         <div class="slide center-align">
-            <img class="responsive-img" src="images/attendance-assistant-logo.png">
+            <img class="responsive-img" src="images/attendance-assistant-logo.png" alt="attendance assistant logo">
             <a href="https://github.com/absolute-z3ro/Attendance-Assistant" target="_blank"><h1 class="center">
                 Attendance
                 Assistant</h1></a>
@@ -144,7 +144,7 @@
 <script type="text/javascript" src="js/materialize.js"></script>
 <script type="text/javascript" src="js/fullpage.js"></script>
 <script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
+    let myFullpage = new fullpage('#fullpage', {
         sectionsColor: ['black', 'black', 'black', 'black', 'black'],
         menu: '#menu',
         navigation: true,
@@ -161,8 +161,8 @@
 
     });
     document.addEventListener('DOMContentLoaded', function () {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, {
+        let elements = document.querySelectorAll('.sidenav');
+        let instances = M.Sidenav.init(elements, {
             draggable: true,
             preventScrolling: true
         });
